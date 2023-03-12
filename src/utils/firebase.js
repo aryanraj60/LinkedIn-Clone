@@ -7,7 +7,7 @@ import "firebase/compat/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDY6hF7VPNn9lMESESQsYiz509nUZM9Zqs",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "linkedin-clone-a8efd.firebaseapp.com",
   projectId: "linkedin-clone-a8efd",
   storageBucket: "linkedin-clone-a8efd.appspot.com",
